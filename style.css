@@ -86,3 +86,29 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+  body{
+    margin-bottom: 60px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3{
+    margin: 0 10px;
+  }
+  .link-responsive {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+}
